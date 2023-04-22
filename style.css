@@ -28,7 +28,8 @@
 
 }
 
-.main, .footer {
+.main, 
+.footer {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -49,15 +50,17 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input,button {
+input,
+button {
   outline: none;
 }
 
-.body__button_default{
+.body__button_default {
   background: none;
   border: 0px;
   color: #888;
@@ -72,7 +75,8 @@ input,button {
 }
 
 /* Heading */
-.body__title, .main__label-new-task {
+.body__title, 
+.main__label-new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -110,7 +114,7 @@ input,button {
 }
 
 /* Task list */
-.body__list-default{
+.body__list-default {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -130,7 +134,7 @@ input,button {
   width: 226px;
 }
 
-.body__input-new-task-list{
+.body__input-new-task-list {
   width: 226px;
 }
 
@@ -155,11 +159,13 @@ input,button {
   display: none;
 }
 
-.main__edit-mode .body__input-new-task-list {
+.main__edit-mode 
+.body__input-new-task-list {
   display: inline-block;
   width: 224px;
 }
 
-.main__edit-mode .body__label-text{
+.main__edit-mode 
+.body__label-text{
   display: none;
 }
