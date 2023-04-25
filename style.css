@@ -149,10 +149,11 @@ button {
 }
 
 /* Completed */
-.body__label-completed-task {
+.footer__completed-tasks 
+.body__task_default {
   text-decoration: line-through;
   color: #888;
-}
+} 
 
 /* Edit Task */
 .body__input-new-task-list {
